@@ -1,0 +1,8 @@
+# This combination will be used to ignore all the compiled binaries of C programs.
+
+# Used to ignore all the files
+* 
+# Used to unignore all the files with extensions
+!*.*
+# Used to unignore all the folders/directories
+!*/
