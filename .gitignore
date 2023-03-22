@@ -6,3 +6,6 @@
 !*.*
 # Used to unignore all the folders/directories
 !*/
+
+tmp
+!LICENSE
