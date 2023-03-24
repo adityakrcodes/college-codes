@@ -18,10 +18,10 @@
 - Write a program to demonstrate the Towers of Hanoi.
 - Write a program to find binomial co-efficient using Recursion.
 - Write a program to find the sum of array elements using Recursion.
-- Write a program to evaluate a postfix expression.
+- [Write a program to evaluate a postfix expression.](P14-Evaluate-postfix-expression.c)
 - Write a program to create a binary tree and perform inorder, preorder and postorder traversal.
-- Write a program to find the length of a string, concatenate two strings, and reverse a string without using built-in functions.
+- [Write a program to find the length of a string, concatenate two strings, and reverse a string without using built-in functions.](P16-String-Operations-without-inbuilt-functions.c)
 - Write a program to demonstrate the name Pattern Matching.
 - Write a program to find the length of the string using Pointers.
-- Write a program to delete an element in an array.
+- [Write a program to delete an element in an array.](P19-Delete-element-from-array.c)
 - Write a program to insert an element in an array.
