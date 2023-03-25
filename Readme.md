@@ -50,6 +50,9 @@ Here are some of the good resources you can use to learn about many Programming 
 
 Contributions are welcome to improve the quality and completeness of the learning resources in this repository. Please open an issue or submit a pull request if you have any suggestions or improvements to share. 
 
+If you are interested in contributing to this repository or want to work with me on future projects then DM me on my [Instagram](https://instagram.com/adityakrcodes) or Telegram @adityakrcodes
+
+
 ## License
 
 This repository is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more information.
