@@ -2,7 +2,6 @@
 title: Data Structures and Algorithms
 layout: page
 filename: DSA.md
-permalink: /_layouts/
 ---
 # Data Structure and Algorithm
 ## Table of Contents
