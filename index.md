@@ -1,3 +1,8 @@
+---
+title: College Programming Concepts Repository
+layout: template
+filename: index.md
+---
 # College Programming Concepts Repository
 
 This repository contains all the programming concepts taught in college, organized semester-wise. Each folder contains code examples and learning resources for the respective concept.

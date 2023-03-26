@@ -1,6 +1,8 @@
+---
 title: Data Structures and Algorithms
 layout: _layouts
 filename: DSA.md
+---
 # Data Structure and Algorithm
 ## Table of Contents
 ## Part A
