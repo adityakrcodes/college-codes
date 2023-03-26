@@ -1,6 +1,7 @@
 ---
 title: Data Structures and Algorithms
 layout: page
+permalink: /pages/
 filename: README.md
 ---
 # Data Structure and Algorithm
