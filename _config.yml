@@ -1,0 +1,57 @@
+source              : .
+destination         : ./_site
+collections_dir     : .
+plugins_dir         : _plugins
+layouts_dir         : _layouts
+data_dir            : _data
+includes_dir        : _includes
+sass:
+  sass_dir: _sass
+
+collections:
+  posts:
+    output          : true
+
+safe                : false
+include             : [".htaccess"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files          : [".git", ".svn"]
+encoding            : "utf-8"
+markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter : false
+show_drafts         : null
+limit_posts         : 0
+future              : false
+unpublished         : false
+whitelist           : []
+plugins             : []
+markdown            : kramdown
+highlighter         : rouge
+lsi                 : false
+excerpt_separator   : "\n\n"
+incremental         : false
+detach              : false
+port                : 4000
+host                : 127.0.0.1
+baseurl             : ""
+show_dir_listing    : false
+permalink           : date
+paginate_path       : /page:num
+timezone            : null
+quiet               : false
+verbose             : false
+defaults            : []
+liquid:
+  error_mode        : warn
+  strict_filters    : false
+  strict_variables  : false
+
+kramdown:
+  auto_ids          : true
+  entity_output     : as_char
+  toc_levels        : [1, 2, 3, 4, 5, 6]
+  smart_quotes      : lsquo,rsquo,ldquo,rdquo
+  input             : GFM
+  hard_wrap         : false
+  footnote_nr       : 1
+  show_warnings     : false
