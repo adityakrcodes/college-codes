@@ -1,8 +1,3 @@
----
-title: "College Codes"
-layout: page
-filename: README.md
----
 # College Programming Concepts Repository
 
 This repository contains all the programming concepts taught in college, organized semester-wise. Each folder contains code examples and learning resources for the respective concept.
@@ -24,7 +19,7 @@ This repository contains all the programming concepts taught in college, organiz
 ## Semester 2
 
 - Object-Oriented Programming
-- [Data Structures and Algorithms](_layouts/DSA.md)
+- [Data Structures and Algorithms](DSA.md)
 
 ## Semester 3
 
