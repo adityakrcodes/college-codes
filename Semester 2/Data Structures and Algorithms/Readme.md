@@ -1,3 +1,6 @@
+title: Data Structures and Algorithms
+layout: template
+filename: Readme.md
 # Data Structure and Algorithm
 ## Table of Contents
 ## Part A
