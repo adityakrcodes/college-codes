@@ -1,5 +1,6 @@
 # College Programming Concepts Repository
-
+[![wakatime](https://wakatime.com/badge/user/9dffb9b1-d280-4299-95e9-2418360b3799/project/9096b337-5993-44c4-9eb2-f255cad22c6b.svg)](https://wakatime.com/badge/user/9dffb9b1-d280-4299-95e9-2418360b3799/project/9096b337-5993-44c4-9eb2-f255cad22c6b)
+</br>
 This repository contains all the programming concepts taught in college, organized semester-wise. Each folder contains code examples and learning resources for the respective concept.
 
 ## Table of Contents
