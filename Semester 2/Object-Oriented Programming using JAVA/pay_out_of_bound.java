@@ -1,3 +1,5 @@
+//Write a program to create a user defined exception say Pay Out of Bounds.
+
 import java.io.*;
 
 class PayOutOfBounds extends Exception {

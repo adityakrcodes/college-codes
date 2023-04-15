@@ -1,6 +1,7 @@
+// Write a program to display the month of a year. Months of the year should be held in an array.
+
 import java.util.Calendar;
 
-// Program 2: Write a program to display the month of a year. Months of the year should be held in an array.
 public class month_of_year {
     public static void main(String[] args) {
         Calendar cal = Calendar.getInstance();
