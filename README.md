@@ -19,7 +19,7 @@ This repository contains all the programming concepts taught in college, organiz
 
 ## Semester 2
 
--   Object-Oriented Programming
+-   [Object-Oriented Programming](/pages/OOP.md)
 -   [Data Structures and Algorithms](/pages/DSA.md)
 
 ## Semester 3
