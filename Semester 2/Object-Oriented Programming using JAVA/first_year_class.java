@@ -1,3 +1,4 @@
+
 /*In a college first year class are having the following attributes 
 Name of the class (BCA, BCom, BSc), 
 Name of the staff 
@@ -7,58 +8,47 @@ After entering the value display the output.
  */
 import java.util.Scanner;
 
-public class first_year_class{
-String className;
-String classTeacherName;
-int studentCount;
+public class first_year_class {
+    String className;
+    String classTeacherName;
+    int studentCount;
+    String studentName[] = new String[50];
+    Scanner sc = new Scanner(System.in);
 
-String studentName[] = new String[50]; 
-// Student Name Array
+    public first_year_class() {
+        getInfo();
+    }
 
-Scanner sc = new Scanner(System.in);
+    private void getInfo() {
+        System.out.println("Please Enter the Class Name");
+        className = sc.nextLine();
 
-//Below is constructor function that is called when you create object of this class
+        System.out.println("Please Enter Class Teacher Name");
+        classTeacherName = sc.nextLine();
 
- public first_year_class()
-{ 
-getInfo();
-}
+        System.out.println("Please enter total number of students in the class");
+        studentCount = Integer.parseInt(sc.nextLine());
 
-private void getInfo()
-{
-System.out.println("Please Enter the Class Name"); 
-className=sc.nextLine();
+        System.out.println("Please enter names of all" + studentCount + "students in the class");
 
-System.out.println("Please Enter Class Teacher Name"); 
-classTeacherName = sc.nextLine();
+        for (int i = 0; i < studentCount; i++) {
+            studentName[i] = sc.nextLine();
+        }
+    }
 
-System.out.println("Please enter total number of students in the class");
-studentCount =Integer.parseInt(sc.nextLine());
+    public void display() {
+        System.out.println("Class Name: " + className);
+        System.out.println("Class Teacher Name:" + classTeacherName);
 
-System.out.println("Please enter names of all"+ studentCount+"students in the class");
+        System.out.println(" **Student Names** ");
 
-for (int i=0; i< studentCount;i++)
-{ 
-studentName[i] = sc.nextLine();
-}
-}
+        for (int i = 0; i < studentCount; i++) {
+            System.out.println(studentName[i]);
+        }
+    }
 
-public void display()
-{
-System.out.println("Class Name: " + className);
-System.out.println("Class Teacher Name:" +classTeacherName);
-
-System.out.println(" Student Names "); System.out.println("---------------");
-
-for (int i=0; i< studentCount; i++)
-{
- System.out.println(studentName[i]);
-}
-}
-public static void main(String args[])
-{
-    first_year_class fy = new first_year_class(); 
-// this will trigger getinto function 
-fy.display();
-}
+    public static void main(String args[]) {
+        first_year_class fy = new first_year_class();
+        fy.display();
+    }
 }
