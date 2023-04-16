@@ -4,7 +4,7 @@ Use static variable declaration. Observe the changes that occur in the object’
 class Staticvar{
     public static int a,b;
     public void display(){
-        System.out.println("A value ="+a+"B value ="+b);
+        System.out.println("A value ="+a+", B value ="+b);
     }
 }
 
