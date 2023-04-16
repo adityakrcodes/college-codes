@@ -5,7 +5,7 @@ MulDiv should have methods to multiply and divide
 A main function should access the methods and perform the mathematical operations. 
 */
 
-class methods {
+class AddSub {
     int a = 20, b = 10;
 
     public void display() {
@@ -21,7 +21,7 @@ class methods {
     }
 }
 
-class MutiDiv extends methods {
+class MutiDiv extends AddSub {
     void multi() {
         System.out.println("Multi = " + (a * b));
     }
