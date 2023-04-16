@@ -29,7 +29,7 @@ public class first_year_class {
         System.out.println("Please enter total number of students in the class");
         studentCount = Integer.parseInt(sc.nextLine());
 
-        System.out.println("Please enter names of all" + studentCount + "students in the class");
+        System.out.println("Please enter names of all " + studentCount + " students in the class");
 
         for (int i = 0; i < studentCount; i++) {
             studentName[i] = sc.nextLine();
