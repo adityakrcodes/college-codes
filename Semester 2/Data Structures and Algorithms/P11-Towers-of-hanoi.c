@@ -19,7 +19,7 @@ void main(){
     printf("Enter the number of disks: ");
     scanf("%d", &n);
     hanoi(n, 'S', 'I', 'D');
-    count = pow(2,n) - 1; // If compiling with gcc on linux or Windows add -lm while compiling Example: gcc P11-Towers-of-hanoi.c -o P11-Towers-of-hanoi -lm
+    count = pow(2,n) - 1; // If compiling with gcc on linux or Windows add -lm while compiling Example: gcc P11-Towers-of-hanoi.c -o P11-Towers-of-hanoi -lm && ./P11-Towers-of-hanoi
     printf("\nTotal number of moves: %d", count);
     getch();
 }
