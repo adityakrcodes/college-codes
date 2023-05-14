@@ -29,8 +29,7 @@ permalink: /pages/
 -   Write a program to handle Null Pointer Exception and use the “finally” method to display a message to the user.
 -   Write a program to draw several shapes in the created window.
 -   Write a program which creates a frame with two buttons father and
-    mother. When we click the father button the name of the father, his age and designation must appear. When we click mother similar details of mother also appear.
--   Create a frame which displays your personal details with respect to a button click.
+    mother. When we click the father button the name of the father, his age and designation must appear. When we click mother similar details of mother also appear. Create a frame which displays your personal details with respect to a button click.
 -   Write a program to move different shapes according to the arrow key pressed.
 -   Write a java Program to create a window when we press M or m the window displays Good Morning, A or a the window displays Good After Noon E or e the window displays Good Evening, N or n the window displays Good Night.
 -   Demonstrate the various mouse handling events using suitable example.
