@@ -22,15 +22,17 @@ permalink: /pages/
 -   [In a college first year class are having the following attributes Name of the class (BCA, BCom, BSc), Name of the staff No of the students in the class, Array of students in the class.](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/first_year_class.java)
 -   [Define a class called first year with above attributes and define a suitable constructor. Also write a method called beststudent() which process a first-year object and return the student with the highest total mark. In the main method define a first-year object and find the best student of this class.](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/best_student.java)
 ## Part B
--   Write a Java program to define a class called employee with the name and date of appointment. Create ten employee objects as an array and sort them as per their date of appointment. ie, print them as per their seniority.
--   Create a package ‘student.Fulltime.BCA‘ in your current working directory.
-    -   Create a default class student in the above package with the following attributes: Name, age, sex.
-    -   Have methods for storing as well as displaying.
+-   [Write a Java program to define a class called employee with the name and date of appointment. Create ten employee objects as an array and sort them as per their date of appointment. ie, print them as per their seniority. (11th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/emp_array_sort.java)
+-   [Create a package ‘student.Fulltime.BCA‘ in your current working directory. (12th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/student_info_package_prgm.java)
+    -   [Create a default class student in the above package with the following attributes: Name, age, sex.](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/student_info_package_prgm.java)
+    -   [Have methods for storing as well as displaying.](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/student_info_package_prgm.java)
+    - Code for the topic:
+        - [Package code](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/BCA/bca_student_package.java)
+        - [Main code](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/student_info_package_prgm.java)
 -   Write a program to handle Null Pointer Exception and use the “finally” method to display a message to the user.
 -   Write a program to draw several shapes in the created window.
--   Write a program which creates a frame with two buttons father and
-    mother. When we click the father button the name of the father, his age and designation must appear. When we click mother similar details of mother also appear. Create a frame which displays your personal details with respect to a button click.
+-   [Write a program which creates a frame with two buttons father and mother. When we click the father button the name of the father, his age and designation must appear. When we click mother similar details of mother also appear. Create a frame which displays your personal details with respect to a button click.(13th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/display_FandM_details.java)
 -   Write a program to move different shapes according to the arrow key pressed.
 -   Write a java Program to create a window when we press M or m the window displays Good Morning, A or a the window displays Good After Noon E or e the window displays Good Evening, N or n the window displays Good Night.
--   Demonstrate the various mouse handling events using suitable example.
--   Write a program to create menu bar and pull-down menus.
+-   [Demonstrate the various mouse handling events using suitable example.(14th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/mouse_handling.java)
+-   [Write a program to create menu bar and pull-down menus.(15th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/pull_down_menu.java)
