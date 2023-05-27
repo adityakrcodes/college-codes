@@ -1,40 +1,48 @@
-import java.util.Arrays;
+import java.util.*;
 
-public class emp_array_sort {
-    public static void main(String[] args){
-        Employee[] staff = new Employee[10];
-        staff[0] = new Employee("Krishna", 40000);
-        staff[1] = new Employee("Ram", 60000);
-        staff[2] = new Employee("Arjun", 50000);
-        staff[3] = new Employee("Bheem", 70000);
-        staff[4] = new Employee("Nakul", 30000);
-        staff[5] = new Employee("Sahadev", 20000);
-        staff[6] = new Employee("Duryodhan", 10000);
-        staff[7] = new Employee("Dushasan", 80000);
-        staff[8] = new Employee("Karna", 90000);
-        staff[9] = new Employee("Shakuni", 100000);
+class employee {
+    String name;
+    Date appdate;
 
-        Arrays.sort(staff); // Sort the staff array
+    public employee(String nm, Date apdt) {
+        name = nm;
+        appdate = apdt;
+    }
 
-        for (int i = 0; i < 10; i++)
-            staff[i].print();
+    public void display() {
+        System.out.println("Employee Name: " + name + " Appointed Date: " + appdate.getDate() + "/"
+                + (appdate.getMonth() + 1) + "/" + (appdate.getYear()));
     }
 }
 
-class Employee implements Comparable<Employee> {
-    String name;
-    double salary;
-
-    public Employee(String n, double s){
-        name = n;
-        salary = s;
-    }
-
-    public void print(){
-        System.out.println(name + " " + salary);
-    }
-
-    public int compareTo(Employee other) {
-        return Double.compare(this.salary, other.salary);
+class tmp {
+    public static void main(String[] args) {
+        employee emp[] = new employee[10];
+        emp[0] = new employee("Aditya Kumar", new Date(2007, 2, 12));
+        emp[1] = new employee("Ansh Jaiswal", new Date(2010, 4, 15));
+        emp[2] = new employee("Jason Dsouza", new Date(2020, 7, 1));
+        emp[3] = new employee("Durganand", new Date(2021, 5, 11));
+        emp[4] = new employee("Amit Kumar", new Date(2009, 11, 5));
+        emp[5] = new employee("Raj Ranjan", new Date(2020, 5, 6));
+        emp[6] = new employee("Aman Raj", new Date(2022, 12, 22));
+        emp[7] = new employee("Rishit Raj", new Date(2019, 10, 30));
+        emp[8] = new employee("Nikhil Kumar", new Date(2017, 4, 20));
+        emp[9] = new employee("Ritu Raj", new Date(2022, 1, 10));
+        for (int i = 0; i < 10; i++) {
+            emp[i].display();
+        }
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10 - i - 1; j++) {
+                if (emp[j].appdate.compareTo(emp[j + 1].appdate) > 0) {
+                    employee temp = emp[j];
+                    emp[j] = emp[j + 1];
+                    emp[j + 1] = temp;
+                }
+            }
+        }
+        System.out.println("Sorted List: ");
+        for (int i = 0; i < 10; i++) {
+            emp[i].display();
+        }
     }
 }
