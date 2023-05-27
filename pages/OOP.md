@@ -34,5 +34,5 @@ permalink: /pages/
 -   [Write a program which creates a frame with two buttons father and mother. When we click the father button the name of the father, his age and designation must appear. When we click mother similar details of mother also appear. Create a frame which displays your personal details with respect to a button click.(13th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/display_FandM_details.java)
 -   Write a program to move different shapes according to the arrow key pressed.
 -   Write a java Program to create a window when we press M or m the window displays Good Morning, A or a the window displays Good After Noon E or e the window displays Good Evening, N or n the window displays Good Night.
--   [Demonstrate the various mouse handling events using suitable example.(14th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/mouse_handling.java) NOTE: THIS HAS ERRORS!
+-   [Demonstrate the various mouse handling events using suitable example.(14th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/mouse_handling.java)
 -   [Write a program to create menu bar and pull-down menus.(15th)](/Semester%202/Object-Oriented%20Programming%20using%20JAVA/pull_down_menu.java)
