@@ -1,65 +1,49 @@
-import java.awt.Graphics;
+import java.awt.*;
 import java.awt.event.*;
-import java.applet.*;
 
-public class mouse_handling extends Applet implements MouseListener, MouseMotionListener, KeyListener {
-    String msg = "";
-    int X = 10, Y = 20; // output coordinates
+public class mouse_handling extends Frame implements MouseListener {
+    Label label;
 
-    public void init() {
+    mouse_handling() {
         addMouseListener(this);
-        addMouseMotionListener(this);
-        addKeyListener(this);
-    }
 
-    public void paint(Graphics g) {
-        g.drawString(msg, X, Y);
+        label = new Label();
+        label.setBounds(20, 50, 100, 20);
+        add(label);
+        setSize(300, 300);
+        setLayout(null);
+        setVisible(true);
     }
 
     public void mousePressed(MouseEvent me) {
-        msg = "Mouse pressed";
-        repaint();
+        label.setText("Mouse Pressed");
     }
 
     public void mouseClicked(MouseEvent me) {
-        msg = "Mouse clicked";
-        repaint();
+        label.setText("Mouse clicked");
     }
 
     public void mouseEntered(MouseEvent me) {
-        msg = "Mouse entered";
-        repaint();
+        label.setText("Mouse entered");
     }
 
     public void mouseExited(MouseEvent me) {
-        msg = "Mouse exited";
-        repaint();
+        label.setText("Mouse exited");
     }
 
     public void mouseReleased(MouseEvent me) {
-        msg = "Mouse released";
-        repaint();
+        label.setText("Mouse released");
     }
 
     public void mouseMoved(MouseEvent me) {
-        msg = "Mouse moved";
-        repaint();
+        label.setText("Mouse moved");
     }
 
     public void mouseDragged(MouseEvent me) {
-        msg = "Mouse dragged";
-        repaint();
+        label.setText("Mouse dragged");
     }
 
-    public void keyTyped(KeyEvent ke) {
-        // Handle key typed event
-    }
-
-    public void keyPressed(KeyEvent ke) {
-        // Handle key pressed event
-    }
-
-    public void keyReleased(KeyEvent ke) {
-        // Handle key released event
+    public static void main(String[] args) {
+        new mouse_handling();
     }
 }
