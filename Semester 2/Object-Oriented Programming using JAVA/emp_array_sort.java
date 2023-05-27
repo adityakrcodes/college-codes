@@ -15,7 +15,7 @@ class employee {
     }
 }
 
-class tmp {
+class emp_array_sort {
     public static void main(String[] args) {
         employee emp[] = new employee[10];
         emp[0] = new employee("Aditya Kumar", new Date(2007, 2, 12));
