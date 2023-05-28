@@ -18,7 +18,6 @@ void InsertionSort(int a[], int n){
     }
     
 }
-// This is a comment made to make the discord rich presence work!
 void main(){
     int a[20], n, i;
     clrscr();
