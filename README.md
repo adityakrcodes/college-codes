@@ -24,7 +24,7 @@ This repository contains all the programming concepts taught in college, organiz
 
 ## Semester 3
 
--   [python](/pages/python.md)
+-   [Python](/pages/python.md)
 
 ## Semester 4
 
