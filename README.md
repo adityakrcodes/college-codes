@@ -26,6 +26,20 @@ This repository contains all the programming concepts taught in college, organiz
 
 -   [Python](/pages/python.md)
 
+    Python practise question (PART-A):
+
+
+    Write a python program to calculate sum of series ?
+
+    def sumOfSumSeries(N):
+    sum = 0
+    for i in range(N + 1):
+    sum = sum + (i * (i + 1)) // 2
+ 
+    return sum
+    N = 5
+    print(sumOfSumSeries(N))
+    
 ## Semester 4
 
 -   TBA
