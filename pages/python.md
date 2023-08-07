@@ -12,7 +12,7 @@ permalink: /pages/
 ## Part A
 
 - [Write a python program to demonstrate diffrent number datatypes in python.](/Semester%203/Python/P01-Demonstrate_Numeric_Value.py)
-- [Write a python program to perform diffrent arithmetic operations on numbers in python.](/)
+- [Write a python program to perform diffrent arithmetic operations on numbers in python.](/Semester%203/Python/P02-Perform_Arithmetic_Operations.py)
 - [write a python program to perform diffrent string operations.](/)
 - [write a python script to print the current date.](/)
 - [Write a python program to perform list operations in python.](/)
