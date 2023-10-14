@@ -18,7 +18,7 @@ permalink: /pages/
 - [Write a python program to perform list operations in python.](/)
 - [write a python program to demonstrate working with tuples in pyhton.](/)
 - [write a python program to demonstrate working with dictionaries in pyhton.](/)
-- [write a python program to demonstrate working of if..else if in python.](/)
+- [write a python program to demonstrate working of if..else if in python.](/Semester%203/Python/P08-Demonstrate_If-Else_Question.py)
 - [write a python program to demonstrate working switch statement in python.](/)
 - [Write a python program to calculate sum of series.](/)
 - [Write a python program to find factorial of a number using recursion.](/)
