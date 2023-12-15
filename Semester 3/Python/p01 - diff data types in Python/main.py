@@ -1,4 +1,4 @@
-#Write a python program to demonstrate diffrent number datatypes in python
+# Write a python program to demonstrate diffrent number datatypes in python
 a=5
 print("value of a is",a)
 print("Type of a:",type(a))

@@ -1,0 +1,23 @@
+import math
+sq = math.sqrt(64)
+ce = math.ceil(1.4)
+fl = math.floor(1.4)
+p = math.pi
+po = pow(4, 3)
+mi = min(5, 10, 25)
+ma = max(5, 10, 25)
+ab = abs(-7.25)
+anglDegree = 90
+anglRadian = math.radians(anglDegree)
+print('sqrt(64) is:', sq)
+print('ceil(1.4) is:', ce)
+print('floor(1.4) is:', fl)
+print('pi(1.4) is:', p)
+print('pow(4,3) is:', po)
+print('min(5,10,25) is:', mi)
+print('max(5,10,25) is:', ma)
+print('abs(-7.25) is:', ab)
+print('The given angle is :', anglRadian)
+print('sin(x) is :', math.sin(anglRadian))
+print('cos(x) is :', math.cos(anglRadian))
+print('tan(x) is :', math.tan(anglRadian))
