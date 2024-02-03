@@ -8,7 +8,7 @@ This repository contains all the programming concepts taught in college, organiz
 -   [Semester 1 (TBA)](#semester-1)
 -   [Semester 2](#semester-2)
 -   [Semester 3](#semester-3)
--   [Semester 4 (TBA)](#semester-4)
+-   [Semester 4](#semester-4)
 -   [Semester 5 (TBA)](#semester-5)
 -   [Semester 6 (TBA)](#semester-6)
 
@@ -28,7 +28,8 @@ This repository contains all the programming concepts taught in college, organiz
 
 ## Semester 4
 
--   TBA
+-   [Information Technology](/pages/it.md)
+-   [Artificial Inteligence](/pages/ai.md)
 
 ## Semester 5
 
