@@ -9,7 +9,7 @@ permalink: /pages/
 ## Part A
 
 - [Write a program to implement Breadth First Search using Python]()
-- [Write a program to implement Depth First Search using Python]()
+- [Write a program to implement Depth First Search using Python](/Semester%204/Artificial%20Inteligence/depth-first-search.py)
 - [Write a program to implement Best First Search using Python](/Semester%204/Artificial%20Inteligence/best-first-search.py)
 - [Write a program to implement 8 puzzle problem using Python]()
 - [Write a program to implement Water Jug problem using Python]()
