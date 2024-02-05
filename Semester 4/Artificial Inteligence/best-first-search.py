@@ -30,14 +30,16 @@ def bfs(graph, start, end):
 
 if __name__ == "__main__":
     graph = Graph()
-    graph.add_edge('A', 'B', 5)
-    graph.add_edge('A', 'C', 3)
+
+    graph.add_edge('A', 'B', 3)
+    graph.add_edge('A', 'C', 4)
     graph.add_edge('B', 'D', 2)
     graph.add_edge('B', 'E', 5)
-    graph.add_edge('C', 'F', 4)
-    graph.add_edge('E', 'F', 2)
-
+    graph.add_edge('C', 'F', 6)
+    graph.add_edge('D', 'G', 7)
+    graph.add_edge('E', 'H', 4)
+    graph.add_edge('F', 'I', 3)
     start_node = 'A'
-    end_node = 'F'
+    end_node = 'H'
 
     bfs(graph, start_node, end_node)
