@@ -6,5 +6,24 @@ permalink: /pages/
 ---
 # Information Technology
 ## Table of Contents
-## Part A
 
+- [Design Student Signup Form Using HTML, JavaScript, HTML5 & CSS]
+- [Write a Hello Program In PHP by installing & configuring XAMPP]
+- [Write a program in PHP for type casting of a variable]
+- [Write a program in PHP to display Multiplication Table using nested for loop]
+- [Write a program In PHP to Sort an array using Bubble Sort function]
+- [Design the personal information form, submit and retrieve the form data using php $_POST,$_GET,$ REQUEST variable]
+- [Write a PHP program to keep track of the number of visitors visiting the web page and to display this count of visitors, with proper headings.]
+- [Write a PHP program to use a cookie to remember the day of the last login from a user and display it when run.]
+- [Write a program to demonstrate DOM parser]
+- [Write a program to demonstrate SAX parser]
+- [Design an XML document to store information about a student in a college and display it]
+- [Design signup form to validate username, password, and phone numbers etc using Java script]
+- [Write a JavaScript program to determine whether a given year is a leap year]
+- [Write a JavaScript program to convert temperatures to and from celsius, Fahrenheit]
+- [Write a JavaScript program to use pi value as global variable and print the area of circle]
+- [Write servlet application to print current date & time]
+- [Write a servlet code to demonstrate session tracking]
+- [Write a Java Program to Implement Helloworld program using servlets]
+- [Write a JSP Program using Expression, Scriplet and Directive]
+- [Write a JSP program to demonstrate database connectivity]
