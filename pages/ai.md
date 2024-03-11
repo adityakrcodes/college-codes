@@ -14,7 +14,7 @@ permalink: /pages/
 - [Write a program to implement Tower of Hanoi using Python](/Semester%204/Artificial%20Inteligence/tower-of-hanoi.py)
 - [Write a program to implement Water Jug problem using Python](/Semester%204/Artificial%20Inteligence/water-jug.py)
 - [Write a program to implement Travelling Salesman Problem using Python](/Semester%204/Artificial%20Inteligence/travelling-sales-man.py)
+- [Write a program to solve Rat in a maze using backtracing using Python](/Semester%204/Artificial%20Inteligence/maze-problem.py)
 - Write a program to implement 8 puzzle problem using Python
 - Write a program to implement Latin square problem using Python
-- Write a program to solve Rat in a maze using backtracing using Python
 - Write a program to solve graph coloring problem using Python
