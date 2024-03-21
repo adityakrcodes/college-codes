@@ -8,15 +8,15 @@ permalink: /pages/
 ## Table of Contents
 
 - [Design Student Signup Form Using HTML, JavaScript, HTML5 & CSS]
-- [Write a Hello Program In PHP by installing & configuring XAMPP]
+- [Write a Hello Program In PHP by ]
 - [Write a program in PHP for type casting of a variable](/Semester%204/Information%20Technology/Type%20Casting%20Variable/index.php)
 - [Write a program in PHP to display Multiplication Table using nested for loop](/Semester%204/Information%20Technology/Multiplication%20Table/index.php)
 - [Write a program In PHP to Sort an array using Bubble Sort function](/Semester%204/Information%20Technology/Bubble%20Sort/index.php)
 - [Design the personal information form, submit and retrieve the form data using php $_POST,$_GET,$ REQUEST variable]
-- [Write a PHP program to keep track of the number of visitors visiting the web page and to display this count of visitors, with proper headings.]
+- [Write a PHP program to keep track of the number of visitors visiting the web page and to display this count of visitors, with proper headings.](/Semester%204/Information%20Technology/Visitor%20Count/)
 - [Write a PHP program to use a cookie to remember the day of the last login from a user and display it when run.]
 - [Write a program to demonstrate DOM parser]
-- [Write a program to demonstrate SAX parser]
+- [Design a registration form and store the data in a database using PHP and MySQL]
 - [Design an XML document to store information about a student in a college and display it]
 - [Design signup form to validate username, password, and phone numbers etc using Java script]
 - [Write a JavaScript program to determine whether a given year is a leap year]
