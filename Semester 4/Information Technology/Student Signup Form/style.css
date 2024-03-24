@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-cont{
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap: 20px;
+    justify-items: center;
+}
+
+form > div > div > input{
+    padding: 20px;
+    margin-bottom:20px;
+    width: 100%;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

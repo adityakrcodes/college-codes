@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Personal Information Form</title>
 </head>
 <body>
     <form action="index.php?course=BCA&college=Presidency" method="post">

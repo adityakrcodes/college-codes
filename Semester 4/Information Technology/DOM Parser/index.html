@@ -1,0 +1,19 @@
+<!-- Don't run the file with Live Server as it gives error! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Parser</title>
+</head>
+<body>
+    <h1>DOM Parser</h1>
+    <script>
+        const Parser = new DOMParser();
+        const parserDocument = Parser.parseFromString('<body><h1 id="title">This is h1 tag</h1></body>', 'text/html');
+        const title = parserDocument.getElementById('title');
+        title.textContent = 'This is simple text';
+        const textContent = parserDocument.body.textContent;
+        console.log(textContent);
+    </script>
+</body>
+</html>
