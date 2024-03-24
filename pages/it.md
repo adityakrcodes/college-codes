@@ -17,7 +17,7 @@ permalink: /pages/
 - [Write a PHP program to use a cookie to remember the day of the last login from a user and display it when run.](/Semester%204/Information%20Technology/Cookie%20for%20last%20visit/)
 - [Write a program to demonstrate DOM parser](/Semester%204/Information%20Technology/DOM%20Parser/)
 - [Design a registration form and store the data in a database using PHP and MySQL](/Semester%204/Information%20Technology/Registration%20form%20with%20DB/)
-- [Design an XML document to store information about a student in a college and display it]
+- [Design an XML document to store information about a student in a college and display it](/Semester%204/Information%20Technology/Display%20data%20from%20XML/)
 - [Design signup form to validate username, password, and phone numbers etc using Java script]
 - [Write a JavaScript program to determine whether a given year is a leap year]
 - [Write a JavaScript program to convert temperatures to and from celsius, Fahrenheit]

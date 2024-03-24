@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <name>Aditya Kumar</name>
+  <id>22BCA009</id>
+  <major>Computer Application</major>
+  <enrollment_date>2022-07-14</enrollment_date>
+  <courses>
+    <course>
+      <code>DS101</code>
+      <name>Data Structures</name>
+      <grade>A+</grade>
+    </course>
+    <course>
+      <code>CLANG102</code>
+      <name>C Language</name>
+      <grade>A</grade>
+    </course>
+  </courses>
+</student>
