@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<STUDENT_DATA>
+    <STUDENT>
+        <USN>USN: 1111111</USN>
+        <NAME>NAME: Anurag</NAME>
+        <COLLEGE>COLLEGE: Presidency</COLLEGE>
+        <EMAIL>E-MAIL: anurag@email.com</EMAIL>
+    </STUDENT>
+    <STUDENT>
+        <USN>USN: 2222222</USN>
+        <NAME>NAME: Kevin</NAME>
+        <COLLEGE>COLLEGE: USC</COLLEGE>
+        <EMAIL>E-MAIL: kevin@email.com</EMAIL>
+    </STUDENT>
+</STUDENT_DATA>
