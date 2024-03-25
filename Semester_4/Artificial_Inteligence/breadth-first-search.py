@@ -26,5 +26,5 @@ def bfs(visited,graph,node):
                 visited.append(neighbour)
                 queue.append(neighbour)
 
-print("Breadth First Search: ",)
+print("Breadth First Search: ")
 bfs(visited, graph, '5')
