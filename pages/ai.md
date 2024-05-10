@@ -15,6 +15,6 @@ permalink: /pages/
 - [Write a program to implement Water Jug problem using Python](/Semester_4/Artificial_Inteligence/water-jug.py)
 - [Write a program to implement Travelling Salesman Problem using Python](/Semester_4/Artificial_Inteligence/travelling-sales-man.py)
 - [Write a program to solve Rat in a maze using backtracing using Python](/Semester_4/Artificial_Inteligence/maze-problem.py)
-- Write a program to implement 8 puzzle problem using Python
-- Write a program to implement Latin square problem using Python
-- Write a program to solve graph coloring problem using Python
+- [Write a program to implement 8 puzzle problem using Python](/Semester_4/Artificial_Inteligence/8-puzzle-problem.py)
+- [Write a program to implement Latin square problem using Python](/Semester_4/Artificial_Inteligence/latin-square-problem.py)
+- [Write a program to solve graph coloring problem using Python](/Semester_4/Artificial_Inteligence/graph-coloring-problem.py)
