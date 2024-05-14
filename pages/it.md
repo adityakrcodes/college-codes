@@ -22,7 +22,7 @@ permalink: /pages/
 - [Write a JavaScript program to determine whether a given year is a leap year]
 - [Write a JavaScript program to convert temperatures to and from celsius, Fahrenheit]
 - [Write a JavaScript program to use pi value as global variable and print the area of circle]
-- [Write servlet application to print current date & time]
+- [Write servlet application to print current date & time](/Semester_4/Information%20Technology/current-date-time-servlet/)
 - [Write a servlet code to demonstrate session tracking]
 - [Write a Java Program to Implement Helloworld program using servlets]
 - [Write a JSP Program using Expression, Scriplet and Directive]
