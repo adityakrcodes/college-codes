@@ -26,4 +26,4 @@ permalink: /pages/
 - [Write a servlet code to demonstrate session tracking]
 - [Write a Java Program to Implement Helloworld program using servlets]
 - [Write a JSP Program using Expression, Scriplet and Directive]
-- [Write a JSP program to demonstrate database connectivity]
+- [Write a JSP program to demonstrate database connectivity](/Semester_4/Information%20Technology/JSP-DB-CON/)
