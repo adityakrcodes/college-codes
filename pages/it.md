@@ -24,6 +24,6 @@ permalink: /pages/
 - [Write a JavaScript program to use pi value as global variable and print the area of circle](/Semester_4/Information%20Technology/area-of-circle/)
 - [Write servlet application to print current date & time](/Semester_4/Information%20Technology/datetime-with-servlets/)
 - [Write a servlet code to demonstrate session tracking]
-- [Write a Java Program to Implement Helloworld program using servlets]
-- [Write a JSP Program using Expression, Scriplet and Directive]
+- [Write a Java Program to Implement Helloworld program using servlets](/Semester_4/Information%20Technology/hello-world-servlets/)
+- [Write a JSP Program using Expression, Scriplet and Directive](/Semester_4/Information%20Technology/JSP-program-with-ESD/)
 - [Write a JSP program to demonstrate database connectivity](/Semester_4/Information%20Technology/JSP-DB-CON/)
