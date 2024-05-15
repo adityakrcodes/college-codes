@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>Area Of A Circle</h1>    
+    Enter the Radius: <input type="text" name="text" id="radius">
+    <input type="button" value="calculate" onclick="calculate()">
+    <script>
+        var pi = 3.14;
+        function calculate(){
+            var radius = document.getElementById("radius").value;
+            alert("The Area of the circle is " + (radius*radius*pi));
+        }
+    </script>
+</body>
+</html>

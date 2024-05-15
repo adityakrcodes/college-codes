@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <script>
+        function validateForm(){
+            var name = document.getElementById("name").value;
+            var password = document.getElementById("password").value;
+            var phoneno = document.getElementById("phoneno").value;
+            if(name==null || name==""){
+                alert("name cant be empyt");
+                return false;
+            }
+            if(password.length < 6){
+                alert("password must be 6 character long");
+                return false
+            }
+            if(phoneno.length != 10){
+                alert("phone number must be 10 digits");
+                return false
+            }
+            document.getElementById("output").innerHTML = "You are valid user";
+        }
+    </script> 
+
+    <form>
+        Name: <input type="text" id="name"><br>
+        Password: <input type="password" id="password"><br>
+        Phone Number: <input type="text" id="phoneno"><br>
+        <input type="button" onclick="validateForm()" value="submit">
+        <h1 id="output"></h1>
+    </form>
+</body>
+</html>

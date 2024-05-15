@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <h2>JS Celcius to Farahnit</h2> 
+   <p>Enter number</p>
+   <input type="number" id="c" onkeyup="convert('c')"> Degree Celcius<br>
+   <input type="number" id="f" onkeyup="convert('f')"> Degree Farahnit<br>
+   <p><b>Note: </b> math.round() is used to return</p>
+
+   <script>
+        function convert(degree){
+            var x;
+            if(degree == 'c'){
+                x = document.getElementById("c").value * 9/5 + 32;
+                document.getElementById("f").value = x; 
+            }
+            else{
+                x = (document.getElementById("f").value-32) * 5/9;
+                document.getElementById("c").value = x; 
+            }
+        }
+   </script>
+</body>
+</html>

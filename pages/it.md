@@ -18,11 +18,11 @@ permalink: /pages/
 - [Write a program to demonstrate DOM parser](/Semester_4/Information%20Technology/DOM%20Parser/)
 - [Design a registration form and store the data in a database using PHP and MySQL](/Semester_4/Information%20Technology/Registration%20form%20with%20DB/)
 - [Design an XML document to store information about a student in a college and display it](/Semester_4/Information%20Technology/Display%20data%20from%20XML/)
-- [Design signup form to validate username, password, and phone numbers etc using Java script]
-- [Write a JavaScript program to determine whether a given year is a leap year]
-- [Write a JavaScript program to convert temperatures to and from celsius, Fahrenheit]
-- [Write a JavaScript program to use pi value as global variable and print the area of circle]
-- [Write servlet application to print current date & time](/Semester_4/Information%20Technology/current-date-time-servlet/)
+- [Design signup form to validate username, password, and phone numbers etc using Java script](/Semester_4/Information%20Technology/validate-form-with-js/)
+- [Write a JavaScript program to determine whether a given year is a leap year](/Semester_4/Information%20Technology/leap-year-with-js/)
+- [Write a JavaScript program to convert temperatures to and from celsius, Fahrenheit](/Semester_4/Information%20Technology/Temperature%20Conversion/)
+- [Write a JavaScript program to use pi value as global variable and print the area of circle](/Semester_4/Information%20Technology/area-of-circle/)
+- [Write servlet application to print current date & time](/Semester_4/Information%20Technology/datetime-with-servlets/)
 - [Write a servlet code to demonstrate session tracking]
 - [Write a Java Program to Implement Helloworld program using servlets]
 - [Write a JSP Program using Expression, Scriplet and Directive]
