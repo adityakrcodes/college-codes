@@ -1,0 +1,17 @@
+body {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: #0b0a15;
+    font-size: 30px;
+    font-style: bold;
+}
+
+table {
+    color: white;
+}
+
+th,td {
+    padding: 10px;
+}
