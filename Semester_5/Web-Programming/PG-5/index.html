@@ -1,56 +1,56 @@
 <html>
-<head>Stack Ordering
-    <title>Stack Ordering</title>
-    <style>
-        #layer1 {
-            border: solid thick black;
-            background-color: brown;
-            padding: 10px;
-            width: 300px;
-            height: 200px;
-            position: absolute;
-            top: 100px;
-            left: 200px;
-            z-index: 0;
-        }
+    <head>
+        <title>Stack Ordering</title>
+        <style>
+            #layer1 {
+                border: solid thick black;
+                background-color: brown;
+                padding: 10px;
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                top: 100px;
+                left: 200px;
+                z-index: 0;
+            }
 
-        #layer2 {
-            border: solid thick black;
-            background-color: gray;
-            padding: 10px;
-            width: 300px;
-            height: 200px;
-            position: absolute;
-            top: 120px;
-            left: 220px;
-            z-index: 0;
-        }
+            #layer2 {
+                border: solid thick black;
+                background-color: gray;
+                padding: 10px;
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                top: 120px;
+                left: 220px;
+                z-index: 0;
+            }
 
-        #layer3 {
-            border: solid thick black;
-            background-color: white;
-            padding: 10px;
-            width: 300px;
-            height: 200px;
-            position: absolute;
-            top: 140px;
-            left: 240px;
-            z-index: 0;
-        }
-    </style>
-</head>
-<body>
-    <script>
-        var topLayer="layer3";
-        function mover(toTop)
-        {
-        document.getElementById(topLayer).style.zIndex="0";
-        document.getElementById(toTop).style.zIndex="1";
-        topLayer=toTop;
-        }
-    </script>
-    <p id=layer1 onMouseOver=mover('layer1');>This is the last layer</p>
-    <p id=layer2 onMouseOver=mover('layer2');>This is the middle layer</p>
-    <p id=layer3 onMouseOver=mover('layer3');>This is the first layer</p>
-</body>
+            #layer3 {
+                border: solid thick black;
+                background-color: white;
+                padding: 10px;
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                top: 140px;
+                left: 240px;
+                z-index: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var topLayer="layer3";
+            function mover(toTop)
+            {
+            document.getElementById(topLayer).style.zIndex="0";
+            document.getElementById(toTop).style.zIndex="1";
+            topLayer=toTop;
+            }
+        </script>
+        <p id=layer1 onMouseOver=mover('layer1');>This is the last layer</p>
+        <p id=layer2 onMouseOver=mover('layer2');>This is the middle layer</p>
+        <p id=layer3 onMouseOver=mover('layer3');>This is the first layer</p>
+    </body>
 </html>
