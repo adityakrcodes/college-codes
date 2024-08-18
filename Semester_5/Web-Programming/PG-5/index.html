@@ -33,15 +33,14 @@
     <body>
         <script>
             var topLayer="layer3";
-            function mover(toTop)
-            {
-            document.getElementById(topLayer).style.zIndex="0";
-            document.getElementById(toTop).style.zIndex="1";
-            topLayer=toTop;
+            function mover(toTop){
+                document.getElementById(topLayer).style.zIndex="0";
+                document.getElementById(toTop).style.zIndex="1";
+                topLayer=toTop;
             }
         </script>
-        <p id=layer1 onMouseOver=mover('layer1');>This is the last layer</p>
-        <p id=layer2 onMouseOver=mover('layer2');>This is the middle layer</p>
-        <p id=layer3 onMouseOver=mover('layer3');>This is the first layer</p>
+        <p id="layer1" onMouseOver="mover('layer1');">This is the last layer</p>
+        <p id="layer2" onMouseOver="mover('layer2');">This is the middle layer</p>
+        <p id="layer3" onMouseOver="mover('layer3');">This is the first layer</p>
     </body>
 </html>
