@@ -1,0 +1,6 @@
+setwd('/home/adityakrcodes/Code/R/Part-B')
+data<-read.csv('laptopsales.csv')
+print(data)
+pie(data$unit,data$Product,main='Laptop Sale')
+perc<- round(100 * data$unit / sum(data$unit), 1)
+pie(data$unit,labels = perc,main='Laptop Sale')
