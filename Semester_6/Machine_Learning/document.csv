@@ -1,0 +1,11 @@
+message,label,labelnum
+This is a positive sentiment message about a great product.,pos,1
+This movie was ужасный (terrible)!,neg,0
+I would recommend this restaurant to everyone!,pos,1
+The service was terrible.,neg,0
+The food was delicious!,pos,1
+This product is a waste of money.,neg,0
+Overall Im happy with the purchase,pos,1
+I would never buy from this company again.,neg,0
+Great experience!,pos,1
+"""Horrible customer service""",neg,0
