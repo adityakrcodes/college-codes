@@ -22,7 +22,7 @@ regressor.fit(x, y)
 import matplotlib.pyplot as plt 
 tree_to_plot = regressor.estimators_[0] 
 # Plot the decision tree 
-plt.figure(figsize=(20, 10)) 
+plt.figure(figsize=(20, 10))  
 plot_tree(tree_to_plot, feature_names=df.columns.tolist(), filled=True,  rounded=True, fontsize=10) 
 plt.title("Decision Tree from Random Forest") 
 plt.show()
